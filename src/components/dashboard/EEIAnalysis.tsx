@@ -65,9 +65,9 @@ const EEIAnalysis = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">Tất cả</SelectItem>
-                  <SelectItem value="high">EEI Cao (>7.5)</SelectItem>
+                  <SelectItem value="high">EEI Cao ({'>'}7.5)</SelectItem>
                   <SelectItem value="medium">EEI Trung bình (5-7.5)</SelectItem>
-                  <SelectItem value="low">EEI Thấp (<5)</SelectItem>
+                  <SelectItem value="low">EEI Thấp ({'<'}5)</SelectItem>
                 </SelectContent>
               </Select>
             </CardContent>
